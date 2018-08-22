@@ -1,0 +1,110 @@
+/* Styles for Project 5: Structural Design and Session Data */
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+form div {
+    float: left;
+    padding: 10px;
+}
+form label {
+    display: block;
+}
+form input {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(0deg, #8d9096, #dddfe8);
+}
+button {
+    background: linear-gradient(45deg, #0da535, #16d247);
+    border-radius: 4px;
+    padding: 2px 10px;
+    border: none;
+    margin-left: 10px;
+    transition: none !important;
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+}
+.logout {
+    background: linear-gradient(45deg, #b32828, #d21616);
+    color: #fff;
+}
+.error {
+    color: red;
+}
+nav {
+    min-height: 50px;
+    margin-bottom: 30px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 auto;
+    width: 75%;
+}
+nav li {
+    float: left;
+    padding: 0px 60px;
+}
+nav li a {
+    color: orange;
+    font-size: 30px;
+}
+.upload-wrapper {
+    width: 540px;
+    margin: 0 auto;
+}
+form.upload {
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 3px;
+    position: relative;
+}
+.upload input[type='file'] {
+    border: none;
+    margin: 20px 0px;
+    display: block;
+}
+.upload button {
+    margin: 0px;
+}
+.upload label {
+    display: inline-block;
+}
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.image-wrapper, .delete-wrapper {
+    width: 1110px;
+    margin: 0 auto;
+}
+.image-wrapper img {
+    max-width: 50%;
+    display: block;
+}
+.single-image {
+    margin-bottom: 30px;
+}
+.delete-form {
+    width: 52%;
+    margin: 50px 0px 0px;
+}
+h3 {
+    color: #159eef;
+}
+.notify {
+    position: absolute;
+    left: 220px;
+}
