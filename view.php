@@ -1,7 +1,7 @@
 <?php 
     session_start();
     require 'inc/page-begin.php';
-    $db = mysqli_connect('localhost', 'root', 'milkfish818', 'myimages');
+    $db = mysqli_connect('localhost', 'root', 'password', 'myimages');
     $query = "SELECT * FROM imagedata";
  ?>
 

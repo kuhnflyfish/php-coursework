@@ -16,7 +16,7 @@
             <?php if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 
                 $path = "uploads/{$_FILES['image']['name']}";
-                $db = mysqli_connect('localhost', 'root', 'milkfish818', 'myimages');
+                $db = mysqli_connect('localhost', 'root', 'password', 'myimages');
                 $title = mysqli_real_escape_string($db, trim(strip_tags($_POST['title'])));
                 $query = "INSERT INTO imagedata (id, path, title) VALUES (0, '$path', '$title')";
                 $types = array('image/jpeg', 'image/gif', 'image/png');

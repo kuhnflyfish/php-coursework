@@ -2,7 +2,7 @@
     session_start();
     require 'inc/page-begin.php';
 
-    $db = mysqli_connect('localhost', 'root', 'milkfish818', 'myimages');
+    $db = mysqli_connect('localhost', 'root', 'password', 'myimages');
     
     if(isset($_GET['id']) && is_numeric($_GET['id'])) {
         $query = "SELECT path, title FROM imagedata WHERE id={$_GET['id']}";
